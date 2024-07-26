@@ -1,0 +1,70 @@
+.container {
+    position: absolute;
+    top: 10%; /* position au milieu verticalement */
+    left: 50%; /* position au milieu horizontalement */
+    transform: translate(-50%, -50%); /* centrer le conteneur */
+    text-align: center; /* aligner le texte au centre */
+}
+
+h1 {
+    font-family: 'Jaro', sans-serif;
+    font-size: 35px; /* taille du texte */
+    color: #333; /* couleur du texte */
+}
+
+.credits {
+    background-color: #ff4242;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jeu-cube {
+    background-color: #007bff; /* couleur bleue */
+    color: white; /* couleur du texte */
+    border: none; /* supprimer les bordures */
+    border-radius: 5px; /* arrondir les coins */
+    padding: 10px 20px; /* espace à l'intérieur du bouton */
+    font-size: 16px; /* taille du texte */
+    cursor: pointer; /* curseur au survol */
+    position: absolute; /* positionnement absolu */
+    top: 40%; /* position au milieu verticalement */
+    left: 50%; /* position au milieu horizontalement */
+    transform: translate(-50%, -50%); /* centrer le bouton */
+}
+
+.demineur {
+    background-color: #007bff; /* couleur bleue */
+    color: white; /* couleur du texte */
+    border: none; /* supprimer les bordures */
+    border-radius: 5px; /* arrondir les coins */
+    padding: 10px 20px; /* espace à l'intérieur du bouton */
+    font-size: 16px; /* taille du texte */
+    cursor: pointer; /* curseur au survol */
+    position: absolute; /* positionnement absolu */
+    top: 50%; /* position au milieu verticalement */
+    left: 50%; /* position au milieu horizontalement */
+    transform: translate(-50%, -50%); /* centrer le bouton */
+}
+
+.morpion {
+    background-color: #007bff; /* couleur bleue */
+    color: white; /* couleur du texte */
+    border: none; /* supprimer les bordures */
+    border-radius: 5px; /* arrondir les coins */
+    padding: 10px 20px; /* espace à l'intérieur du bouton */
+    font-size: 16px; /* taille du texte */
+    cursor: pointer; /* curseur au survol */
+    position: absolute; /* positionnement absolu */
+    top: 50%; /* position au milieu verticalement */
+    left: 40%; /* position au milieu horizontalement */
+    transform: translate(-50%, -50%); /* centrer le bouton */
+}
